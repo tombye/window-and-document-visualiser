@@ -1,0 +1,58 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 19px;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+main {
+  
+}
+
+.frame {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 10px;
+}
+
+.diagram {
+  padding-top: 10px;
+}
+
+.data {
+  
+}
+
+dt, dd, dd input {
+  font-size: 19px;
+}
+
+dt, dd {
+  float: left;
+  box-sizing: border-box;
+  margin: 0;
+  line-height: 1.5;
+  vertical-align: bottom;
+}
+
+dt {
+  clear: left;
+  width: 75%;
+  font-weight: bold;
+}
+
+dt:after {
+  content: ":"
+}
+
+dd {
+  width: 25%;
+  padding-left: 0.5em;
+  text-align: left;
+}
